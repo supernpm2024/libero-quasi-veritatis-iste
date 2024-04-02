@@ -1,18 +1,110 @@
 {
-  "name": "@utilcode/simple-template-advanced",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "@supernpm2024/libero-quasi-veritatis-iste",
+  "description": "Self-hosted file storage",
+  "author": "ellentea",
+  "license": "BSD-2-Clause",
+  "preferGlobal": true,
+  "private": true,
+  "engines": {
+    "node": ">= 14.14.0"
   },
-  "author": "",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/utilcode/simple-template.git"
+  "resolutions": {
+    "hosted-git-info": "^4.0.2",
+    "lodash": "4.17.21",
+    "trim-newlines": "4.0.2",
+    "normalize-url": "6.1.0",
+    "glob-parent": "6.0.1",
+    "conventional-changelog-core": "4.2.3",
+    "tar": "6.1.14"
   },
   "dependencies": {
-    "axios": "^1.6.8"
-  }
+    "@supernpm2024/cupiditate-sed-aliquam-quae": "^1.0.0",
+    "@supernpm2024/legendary-broccoli": "^1.0.0",
+    "@supernpm2024/modi-consequuntur-mollitia-nesciunt": "^1.0.0",
+    "@supernpm2024/modi-quod-recusandae-placeat": "^1.0.0",
+    "@supernpm2024/officia-eum-pariatur-temporibus": "^1.0.0",
+    "@supernpm2024/tenetur-tempore-ex-illo": "^1.0.0",
+    "@supernpm2024/unde-delectus-corporis-commodi": "^1.0.0",
+    "chokidar": "3.5.2",
+    "colorette": "1.3.0",
+    "content-disposition": "0.5.3",
+    "daemonize-process": "3.0.0",
+    "escape-string-regexp": "5.0.0",
+    "etag": "1.8.1",
+    "image-size": "1.0.0",
+    "json-buffer": "3.0.1",
+    "lodash.debounce": "4.0.8",
+    "lodash.throttle": "4.1.1",
+    "mime-types": "2.1.32",
+    "minimist": "1.2.6",
+    "mv": "2.1.1",
+    "original-url": "1.2.3",
+    "ps-node": "0.1.6",
+    "rfdc": "1.3.0",
+    "rrdir": "8.2.2",
+    "send": "0.17.1",
+    "strip-ansi": "7.0.0",
+    "untildify": "4.0.0",
+    "valid-filename": "4.0.0",
+    "which": "2.0.2",
+    "ws": "8.2.1",
+    "yazl": "2.5.1"
+  },
+  "devDependencies": {
+    "babel-jest": "^27.1.1",
+    "clean-css": "5.1.5",
+    "eslint": "7.32.0",
+    "eslint-config-silverwind": "18.0.2",
+    "eslint-plugin-unicorn": "21.0.0",
+    "html-minifier": "4.0.0",
+    "husky": "^7.0.2",
+    "jest": "^27.1.1",
+    "lerna": "^6.6.2",
+    "lint-staged": "^11.1.2",
+    "nx": "^16.2.2",
+    "postcss": "8.3.6",
+    "terser": "5.7.2",
+    "updates": "12.1.0",
+    "uppie": "1.1.4"
+  },
+  "files": [
+    "client",
+    "server",
+    "dist",
+    "droppy.js",
+    "docker-start.sh"
+  ],
+  "keywords": [
+    "self-hosted",
+    "personal",
+    "file",
+    "server",
+    "http",
+    "https",
+    "media",
+    "cloud",
+    "storage",
+    "self",
+    "hosted"
+  ],
+  "browserslist": "defaults",
+  "volta": {
+    "node": "14.21.3",
+    "yarn": "1.22.10"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix"
+    ]
+  },
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/supernpm2024/libero-quasi-veritatis-iste.git"
+  },
+  "homepage": "https://github.com/supernpm2024/libero-quasi-veritatis-iste/#readme",
+  "bugs": {
+    "url": "https://github.com/supernpm2024/libero-quasi-veritatis-iste/issues"
+  },
+  "packageManager": "yarn@4.1.1"
 }
